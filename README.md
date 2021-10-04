@@ -1,2 +1,3 @@
 # ProjetoCerveja
  
+Foi utilizado neste projeto os princípios solid, open closed (Aberto e fechado) e o de Liskov (Principio de Substituição), onde o open closed significa dizer que os objetos devem estar abertos para extensão e fechados para modificações, com isso caso seja necessário haver alguma mudança no código fonte ele não poderá ser modificado e sim adicionado as novas informações. Já o princípio de Liskov poderá haver substituições nos sub tipos sem que haja a necessidade de modificar o tipo e também sem compromete-lo. Portanto tais princípios foram colocados em prática nas sub classes de cervejas (Pilsen, lager , etc), pois ao fazer qualquer alterção nas mesmas não comprometerá a classe mãe CERVEJA.
